@@ -19,7 +19,7 @@ export default function RootLayout({
       {/* Aqui deberia de ir la sidebar */}
       <body className={` $(inter.className} flex  h-screen`}>
         <Sidebar />
-        <main className='w-full'>{children}</main>
+        <main className='w-full p-4'>{children}</main>
       </body>
     </html>
   )

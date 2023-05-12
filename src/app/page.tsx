@@ -2,12 +2,12 @@
 // Por lo que aun no me molesto en poner nada de values o nada por el estilo, porq no se que info tiene
 // el api xd
 
+import Header from "./components/Header"
+
 export default function HomePage() {
   return (
-    <div className='p-4'>
-      <div className='h-24 border-b-4 border-zinc-300'>
-        <h1 className='text-4xl'>Metrics List</h1>
-      </div>
+    <div>
+      <Header title='Metrics List' />
 
       <div className="pt-4">
         <select name='Service Methods' defaultValue='default' className='p-2 w-96' >
