@@ -3,17 +3,15 @@
 // el api xd
 
 import Header from "./components/Header"
+import MethodSelector from "./components/MethodSelector"
 
 export default function HomePage() {
   return (
     <div>
       <Header title='Metrics List' />
 
-      <div className="pt-4">
-        <select name='Service Methods' defaultValue='default' className='p-2 w-96' >
-          {/* Agregar despues un map para los valores */}
-          <option value='default'>Select a service method</option>
-        </select>
+      <div className="pt-6">
+        <MethodSelector />
 
         <div className='flex pt-4'>
           {/* Grafico */}
