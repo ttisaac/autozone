@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Sidebar = () => {
   return (
-    <div className='fixed left-0 top-0 h-screen w-64 bg-sidebar pt-4
+    <div className='h-screen w-72 bg-sidebar pt-4
                     flex flex-col items-center'>
         <div className='mb-8 text-center'>
           <Image src='https://cdn.worldvectorlogo.com/logos/autozone-logo.svg' height={80} width={240} alt='Autozone logo'
