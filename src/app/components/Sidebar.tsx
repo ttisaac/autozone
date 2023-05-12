@@ -14,7 +14,7 @@ const Sidebar = () => {
         
         <div className='w-full flex flex-col gap-5'>
             <SidebarItem title={'Metrics List'} destination='/' imgsrc='/images/stats.png' alt='Graph' />
-            <SidebarItem title={'Recalculation'} destination='/' imgsrc='/images/recalculate.png' alt='Graph' />
+            <SidebarItem title={'Recalculation'} destination='/Recalculation' imgsrc='/images/recalculate.png' alt='Graph' />
             <SidebarItem title={'YAML Status'} destination='/' imgsrc='/images/file-export.png' alt='Graph' />
             <SidebarItem title={'Configure YAML File'} destination='/.' imgsrc='/images/edit-yaml.png' alt='Graph' />
             <SidebarItem title={'Settings'} destination='/' imgsrc='/images/settings.png' alt='Graph' />
