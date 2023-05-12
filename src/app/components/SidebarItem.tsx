@@ -16,7 +16,7 @@ const SidebarItem = ({ title, destination, imgsrc, alt, lastItem }: props) => {
   return (
     <div className={ border }>
       <Link href={ destination }>
-          <button className='text-sidebar-text py-4 px-8 text-center font-bold text-sm hover:bg-orange-500 hover:text-white flex gap-3 w-full'>
+          <button className='text-sidebar-text py-4 px-8 text-center font-bold text-sm hover:bg-orange-500 hover:text-white active:bg-opacity-50 flex gap-3 w-full'>
               <Image src={ imgsrc } width={ 25 } height={ 25 } alt={ alt } />
               { title }
           </button>
