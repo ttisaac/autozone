@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.week-table tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+.week-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
