@@ -58,7 +58,7 @@ const Sidebar = () => {
           key={index}
           title={page.title}
           destination={page.path}
-          current={page.path === segment}
+          current={segment === page.path || segment.startsWith(`${page.path}/`)}
           imgsrc={page.imgsrc}
           alt={page.alt}
           lastItem={page.lastItem}
