@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.week-table tbody tr:nth-child(odd) {
+.week-table tbody tr:nth-child(odd), .serviceid-table tbody tr:nth-child(odd) {
     background-color: #e0e0e0;
 }
-.week-table tbody tr:nth-child(even) {
+.week-table tbody tr:nth-child(even), .serviceid-table tbody tr:nth-child(even) {
     background-color: #f0f0f0;
 }
 
