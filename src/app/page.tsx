@@ -35,7 +35,7 @@ export default function HomePage() {
           </table>
         </div>
 
-        <div className="pt-4">
+        <div className="my-8 h-[60rem] overflow-y-scroll">
           <table className='week-table w-full border-2 border-white'>
             <colgroup>
               <col className='w-3/12 border-2 border-white'/>
@@ -44,7 +44,7 @@ export default function HomePage() {
               <col className='w-3/12 border-2 border-white'/>
             </colgroup>
 
-            <thead className=' bg-zinc-400'>
+            <thead className='bg-zinc-400'>
               <tr className='text-white'>
                 <th scope="col" className='text-left p-3 text-xl'>Week in which it was calculated</th>
                 <th scope="col" className='text-left p-3 text-xl'>Date range</th>

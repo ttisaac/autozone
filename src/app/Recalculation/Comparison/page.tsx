@@ -5,6 +5,8 @@ import Image from 'next/image'
 import React from 'react'
 
 const ComparisonPage = () => {
+  const tableHeight = 'h-[60rem]'
+
   return (
     <div>
       <Header title='Comparison' />
@@ -28,8 +30,8 @@ const ComparisonPage = () => {
           <div className='h-48'></div>
         
           <div className="w-full flex gap-8">
-            <RecalculationTable title='Week X' />
-            <RecalculationTable title='Official Threshold' />
+            <RecalculationTable title='Week X' height={tableHeight} />
+            <RecalculationTable title='Official Threshold' height={tableHeight} />
           </div>
         </div>
       </div>

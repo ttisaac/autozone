@@ -4,6 +4,8 @@ import MethodSelector from '../components/MethodSelector'
 import RecalculationTable from '../components/RecalculationTable'
 
 const RecalculationPage = () => {
+  const tableHeight = 'h-[75rem]';
+
   return (
     <div>
       <Header title='Recalculation' />
@@ -27,9 +29,9 @@ const RecalculationPage = () => {
         </div>
 
         <div className='mt-8 flex gap-24'>
-         <RecalculationTable title='Response Time' /> 
-         <RecalculationTable title='Throughput Rate' /> 
-         <RecalculationTable title='Failure Rate' /> 
+         <RecalculationTable title='Response Time' height={tableHeight} /> 
+         <RecalculationTable title='Throughput Rate' height={tableHeight} /> 
+         <RecalculationTable title='Failure Rate' height={tableHeight} /> 
         </div>
 
       </div>
