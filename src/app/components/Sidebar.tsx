@@ -1,8 +1,13 @@
+'use client';
+
 import React from 'react'
 import SidebarItem from './SidebarItem'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 
 const Sidebar = () => {
+
+  const segment = usePathname();
 
   const pages = [
     {
@@ -53,6 +58,7 @@ const Sidebar = () => {
           key={index}
           title={page.title}
           destination={page.path}
+          current={page.path === segment}
           imgsrc={page.imgsrc}
           alt={page.alt}
           lastItem={page.lastItem}

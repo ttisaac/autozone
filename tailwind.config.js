@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         sidebar: '#333333',  
         'sidebar-text': '#CAC0B2',
+        selectedItem: '#0c0c0c',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
