@@ -8,3 +8,10 @@
 .week-table tbody tr:nth-child(even) {
     background-color: #f0f0f0;
 }
+
+.yaml-table tbody tr:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+.yaml-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
