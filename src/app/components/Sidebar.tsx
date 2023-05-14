@@ -72,8 +72,8 @@ const Sidebar = () => {
   ));
 
   return (
-    <div className={`flex-shrink-0 ${window.innerWidth <= 1500 ? 'w-16': 'w-80'}`}>
-      <div className={`h-screen ${open ? 'w-80' : 'w-16'} duration-100 bg-sidebar pt-4 flex flex-col absolute items-center`}>
+    <div className={`flex-shrink-0 ${window.innerWidth <= 1500 ? 'w-16': ''}`}>
+      <div className={`h-screen ${open ? 'w-80' : 'w-16'} duration-100 bg-sidebar pt-4 flex flex-col ${window.innerWidth <=1500 ? 'absolute' : 'relative'} items-center`}>
         <div className='w-full px-4 mb-8 flex justify-center'>
           <div className={`text-left ${open ? '' : 'hidden'} mr-4`}>
             <Image src='https://cdn.worldvectorlogo.com/logos/autozone-logo.svg' height={80} width={220} alt='Autozone logo' className='mb-3' />
