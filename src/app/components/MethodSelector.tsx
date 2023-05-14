@@ -6,8 +6,6 @@ const MethodSelector = async () => {
   ); 
   const data = await response.json();
 
-  console.log(data)
-
   return (
     <div className='flex'>
         <select name='Service Methods' defaultValue='default' className='grow p-2 max-w-sm text-ellipsis' >
