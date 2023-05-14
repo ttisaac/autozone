@@ -1,9 +1,6 @@
-// En lo que se integra el back end y puedo usar el api todo es un placeholder meramente visual
-// Por lo que aun no me molesto en poner nada de values o nada por el estilo, porq no se que info tiene
-// el api xd
-
 import Header from "./components/Header"
 import MethodSelector from "./components/MethodSelector"
+import Sidebar from "./components/Sidebar"
 
 export default function HomePage() {
   return (

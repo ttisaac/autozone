@@ -2,10 +2,10 @@ import React from 'react'
 
 const MethodSelector = () => {
   return (
-    <div>
-        <select name='Service Methods' defaultValue='default' className='p-2 w-96' >
+    <div className='overflow-hidden'>
+        <select name='Service Methods' defaultValue='default' className='p-2 max-w-none' >
           {/* Agregar despues un map para los valores */}
-          <option value='default'>Select a service method</option>
+          <option value='default'>Select a service method aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
         </select>
     </div>
   )

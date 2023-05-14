@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={` $(inter.className} flex  h-screen`}>
+      <body className={`${inter.className} flex  h-screen`}>
         <Sidebar />
         <main className='w-full p-4'>{children}</main>
       </body>
