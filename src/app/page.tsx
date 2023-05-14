@@ -7,6 +7,7 @@ export default function HomePage() {
       <Header title='Metrics List' />
 
       <div className="pt-6">
+        {/* @ts-expect-error Server Component */}
         <MethodSelector />
 
         <div className='flex flex-wrap-reverse justify-center pt-4 gap-4'>
