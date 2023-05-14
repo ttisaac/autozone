@@ -12,7 +12,6 @@ import {
   Cog6ToothIcon,
   Bars3Icon,
 } from '@heroicons/react/24/solid';
-import { Disclosure } from '@headlessui/react';
 
 const Sidebar = () => {
   const segment = usePathname();
