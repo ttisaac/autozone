@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import MethodSelector from "./components/MethodSelector"
+import WeekListTable from "./components/WeekListTable"
 
 export default function HomePage() {
   return (
@@ -32,41 +33,8 @@ export default function HomePage() {
           </table>
 
         </div>
-
-        <div className="my-8 min-h-min max-h-md">
-          <table className='week-table w-full border-2 border-white text-[1.5vh]'>
-            <colgroup>
-              <col className='w-3/12 border-2 border-white'/>
-              <col className='w-5/12 border-2 border-white'/>
-              <col className='w-1/12 border-2 border-white'/>
-              <col className='w-3/12 border-2 border-white'/>
-            </colgroup>
-
-            <thead className='bg-zinc-400'>
-              <tr className='text-white'>
-                <th scope="col" className='text-left p-3'>Week in which it was calculated</th>
-                <th scope="col" className='text-left p-3'>Date range</th>
-                <th scope="col" className='text-left p-3'>Official</th>
-                <th scope="col" className='text-left p-3'></th>
-              </tr>
-            </thead>
-
-            <tbody className='border-t-8 border-white'>
-              <tr>
-                <td className='text-left p-3'>Week 1</td>
-                <td className='text-left p-3'>January 1-Sunday, January 7, 2023</td>
-                <td className='text-center p-3 font-bold underline'>False</td>
-                <td className='text-red-500 text-center underline font-bold'>Recalculation</td>
-              </tr>
-              <tr>
-                <td className='text-left p-3'>Week 1</td>
-                <td className='text-left p-3'>January 1-Sunday, January 7, 2023</td>
-                <td className='text-center p-3 font-bold underline'>False</td>
-                <td className='text-red-500 text-center underline font-bold'></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        {/* @ts-expect-error Server Component */}
+        <WeekListTable />
 
       </div>
     </div>  
